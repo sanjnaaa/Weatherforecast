@@ -1,0 +1,53 @@
+.country{
+    display : flex;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 20px;
+
+}
+
+
+.image img{
+    width: 150px;
+    height: 100px;
+}
+
+ .ChooseCountryLabel {
+    color:black;
+    font-size:18px;
+    font-weight:bold;
+    margin:10px auto;
+
+ }
+ .SearchBox {
+
+    display : flex;
+flex-direction:row;
+border:black solid 1px;
+border-radius:2px;
+color:black;
+font-size:18px;
+font-weight:bold;
+margin:20px auto;
+  .input{
+     padding:10px;
+     font-size:14px;
+     border:none;
+     outline:none;
+     font-weight:bold;
+ }
+
+ .button{
+    padding:10px;
+    font-size:14px;
+    color:white;
+    background-color:black;
+    border:none;
+    outline:none;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+ }
+
